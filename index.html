@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,25 +9,50 @@
   <link rel="icon" href="favicon.ico"/>
 </head>
 <body>
+
+  <!-- 🔷 Full Banner -->
+  <section class="hero-banner">
+    <img src="assets/images/Nexamine banner.png" alt="Nexamine – Where Aspirants Evolve" class="banner-img" />
+  </section>
+
+  <!-- 🌐 Navigation Bar -->
   <header>
-    <h1>Welcome to Nexamine</h1>
-    <p>Your AI-powered UPSC Companion</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Nexamine</a>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Explore Domains ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="upsc/index.html">UPSC</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
+  <!-- ✨ Welcome Call to Action -->
   <main>
-    <section>
-      <h2>Start Your UPSC Journey Today</h2>
-      <p>Explore current affairs, GS notes, mock tests, and personalized tools powered by Nexensia AI.</p>
+    <section class="hero-message">
+      <h1>Welcome to <span class="highlight">Nexamine</span></h1>
+      <p>Your AI-powered UPSC Companion</p>
+      <a href="upsc/index.html" class="cta-btn">Start Your UPSC Journey</a>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Nexamine. Powered by Nexensia AI.</p>
+  <!-- 📌 Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 <strong>Nexamine</strong>. Powered by <strong>Nexensia AI</strong>.</p>
+      <div class="footer-logos">
+        <img src="assets/images/Nexamine Logo.png" alt="Nexamine Logo" class="footer-logo" />
+        <img src="assets/images/Nexensia - logo.png" alt="Nexensia Logo" class="footer-logo" />
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
